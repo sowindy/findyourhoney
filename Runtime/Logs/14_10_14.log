@@ -17572,3 +17572,723 @@ SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e342
 SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'Chat' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000075s ]
 SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413277605,'2014-10-14 17:06:45','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[完善有完备美好之意。]]></Content><ToUserName><![CDATA[oXgFDuBcLoN_AOashbqZMJ-tGhWQ]]></ToUserName><FromUserName><![CDATA[gh_fe8e3421a39c]]></FromUserName><CreateTime>1413277604</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000330s ]
 
+[ 2014-10-14T18:44:01+08:00 ] 101.226.62.82 /findyourhoney/index.php?s=/home/weixin/index.html&signature=cd6b55c93e1379db157aca9c2977072f307abe72&timestamp=1413283436&nonce=1197578894
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000858s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000836s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_fe8e3421a39c' ) AND ( `openid` = 'oXgFDuJzC3pLA3lHrrUlTmeg-Cy0' ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000674s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000587s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: need_bind /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000583s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.047652s ]
+SQL: UPDATE `wp_config` SET `value`=-3528 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.000188s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 232 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000496s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283433,'2014-10-14 18:43:53','a:6:{s:10:\"ToUserName\";s:15:\"gh_fe8e3421a39c\";s:12:\"FromUserName\";s:28:\"oXgFDuJzC3pLA3lHrrUlTmeg-Cy0\";s:10:\"CreateTime\";s:10:\"1413283436\";s:7:\"MsgType\";s:4:\"text\";s:7:\"Content\";s:15:\"空腹吃香蕉\";s:5:\"MsgId\";s:19:\"6070006137799113056\";}','<xml><ToUserName><![CDATA[gh_fe8e3421a39c]]></ToUserName>\n<FromUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></FromUserName>\n<CreateTime>1413283436</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[空腹吃香蕉]]></Content>\n<MsgId>6070006137799113056</MsgId>\n</xml>') [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000615s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000596s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000100s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_keyword` [ RunTime:0.000779s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '空腹吃香蕉' ) AND ( `keyword_type` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword_type` > 0 ) ORDER BY keyword_length desc, id desc  [ RunTime:0.000080s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 146 行.
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '*' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000079s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'YouaskService' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'Chat' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283441,'2014-10-14 18:44:01','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[老实说，我真的很不认同这个理论．我自己就是一个很好的例子，去年下半年开始，为了减肥，我每天早晨只吃一根香蕉．香蕉裹腹，热量相对其他水果较高，能保证一个上午的能量消耗．如果再配上一杯豆浆，那就太完美了．我吃了七八个月的香蕉当早餐。]]></Content><ToUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></ToUserName><FromUserName><![CDATA[gh_fe8e3421a39c]]></FromUserName><CreateTime>1413283433</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000313s ]
+
+[ 2014-10-14T18:44:01+08:00 ] 101.226.62.82 /findyourhoney/index.php?s=/home/weixin/index.html&signature=cd6b55c93e1379db157aca9c2977072f307abe72&timestamp=1413283436&nonce=1197578894
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.051225s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000790s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_fe8e3421a39c' ) AND ( `openid` = 'oXgFDuJzC3pLA3lHrrUlTmeg-Cy0' ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000697s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000619s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: need_bind /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000628s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: UPDATE `wp_config` SET `value`=-3529 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 232 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000486s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283438,'2014-10-14 18:43:58','a:6:{s:10:\"ToUserName\";s:15:\"gh_fe8e3421a39c\";s:12:\"FromUserName\";s:28:\"oXgFDuJzC3pLA3lHrrUlTmeg-Cy0\";s:10:\"CreateTime\";s:10:\"1413283436\";s:7:\"MsgType\";s:4:\"text\";s:7:\"Content\";s:15:\"空腹吃香蕉\";s:5:\"MsgId\";s:19:\"6070006137799113056\";}','<xml><ToUserName><![CDATA[gh_fe8e3421a39c]]></ToUserName>\n<FromUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></FromUserName>\n<CreateTime>1413283436</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[空腹吃香蕉]]></Content>\n<MsgId>6070006137799113056</MsgId>\n</xml>') [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000610s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000095s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000605s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000100s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_keyword` [ RunTime:0.000689s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '空腹吃香蕉' ) AND ( `keyword_type` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000086s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword_type` > 0 ) ORDER BY keyword_length desc, id desc  [ RunTime:0.000079s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 146 行.
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '*' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000079s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'YouaskService' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000079s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'Chat' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283441,'2014-10-14 18:44:01','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[老实说，我真的很不认同这个理论．我自己就是一个很好的例子，去年下半年开始，为了减肥，我每天早晨只吃一根香蕉．香蕉裹腹，热量相对其他水果较高，能保证一个上午的能量消耗．如果再配上一杯豆浆，那就太完美了．我吃了七八个月的香蕉当早餐。]]></Content><ToUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></ToUserName><FromUserName><![CDATA[gh_fe8e3421a39c]]></FromUserName><CreateTime>1413283438</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000300s ]
+
+[ 2014-10-14T18:44:53+08:00 ] 101.226.62.82 /findyourhoney/index.php?s=/home/weixin/index.html&signature=78f9c9f6d51168c0f00b5dda9527457bc8b50c48&timestamp=1413283494&nonce=191475862
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000833s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000758s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_fe8e3421a39c' ) AND ( `openid` = 'oXgFDuJzC3pLA3lHrrUlTmeg-Cy0' ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000690s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000616s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: need_bind /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000608s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: UPDATE `wp_config` SET `value`=-3530 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 232 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000497s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283491,'2014-10-14 18:44:51','a:6:{s:10:\"ToUserName\";s:15:\"gh_fe8e3421a39c\";s:12:\"FromUserName\";s:28:\"oXgFDuJzC3pLA3lHrrUlTmeg-Cy0\";s:10:\"CreateTime\";s:10:\"1413283494\";s:7:\"MsgType\";s:4:\"text\";s:7:\"Content\";s:24:\"空腹可以吃香蕉吗\";s:5:\"MsgId\";s:19:\"6070006386907216231\";}','<xml><ToUserName><![CDATA[gh_fe8e3421a39c]]></ToUserName>\n<FromUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></FromUserName>\n<CreateTime>1413283494</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[空腹可以吃香蕉吗]]></Content>\n<MsgId>6070006386907216231</MsgId>\n</xml>') [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000615s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000090s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000618s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000103s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_keyword` [ RunTime:0.000683s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '空腹可以吃香蕉吗' ) AND ( `keyword_type` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword_type` > 0 ) ORDER BY keyword_length desc, id desc  [ RunTime:0.000086s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 146 行.
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '*' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000080s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'YouaskService' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'Chat' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283493,'2014-10-14 18:44:53','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[不好。香蕉含有丰富的钾元素，如果空腹吃香蕉的话，会使体内的钙元素流失。]]></Content><ToUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></ToUserName><FromUserName><![CDATA[gh_fe8e3421a39c]]></FromUserName><CreateTime>1413283491</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000287s ]
+
+[ 2014-10-14T18:45:28+08:00 ] 101.226.62.83 /findyourhoney/index.php?s=/home/weixin/index.html&signature=bf197517fe28692aa94f57846a6216f7300208ba&timestamp=1413283528&nonce=838923678
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.007962s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000281s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.002073s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_fe8e3421a39c' ) AND ( `openid` = 'oXgFDuJzC3pLA3lHrrUlTmeg-Cy0' ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000736s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000699s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: need_bind /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000609s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: UPDATE `wp_config` SET `value`=-3531 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.000188s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 232 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000505s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283525,'2014-10-14 18:45:25','a:6:{s:10:\"ToUserName\";s:15:\"gh_fe8e3421a39c\";s:12:\"FromUserName\";s:28:\"oXgFDuJzC3pLA3lHrrUlTmeg-Cy0\";s:10:\"CreateTime\";s:10:\"1413283528\";s:7:\"MsgType\";s:4:\"text\";s:7:\"Content\";s:24:\"空腹可以吃苹果吗\";s:5:\"MsgId\";s:19:\"6070006532936104300\";}','<xml><ToUserName><![CDATA[gh_fe8e3421a39c]]></ToUserName>\n<FromUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></FromUserName>\n<CreateTime>1413283528</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[空腹可以吃苹果吗]]></Content>\n<MsgId>6070006532936104300</MsgId>\n</xml>') [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000614s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000090s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000639s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000104s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_keyword` [ RunTime:0.000731s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '空腹可以吃苹果吗' ) AND ( `keyword_type` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000245s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword_type` > 0 ) ORDER BY keyword_length desc, id desc  [ RunTime:0.000081s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 146 行.
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '*' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000130s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'YouaskService' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'Chat' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283528,'2014-10-14 18:45:28','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[苹果含有大量糖类，早晨人一般都处于饥饿状态，吃苹果可以补充糖类，所以早晨吃苹果营养价值很高.苹果空腹吃可有助消化. 空腹吃苹果不会感觉到不舒服，没什么问题。而且空腹吃苹果可以排除体内的毒素，空腹吃完没的多久就会有便意，饭前半个小时吃苹果最好，可以减少摄取热量30%，对身体很有好处。 苹果富含糖类、酸类、芳香醇类和果胶物质，并含维生素b、c及钙、磷、钾、铁等营养成分。苹果药用，早在唐代就有记载，苹果不但益心气、的。]]></Content><ToUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></ToUserName><FromUserName><![CDATA[gh_fe8e3421a39c]]></FromUserName><CreateTime>1413283525</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000330s ]
+
+[ 2014-10-14T18:48:00+08:00 ] 101.226.62.82 /findyourhoney/index.php?s=/home/weixin/index.html&signature=817b3ee48f6d57afaff4cd750cc6aa84d4a66730&timestamp=1413283671&nonce=1144253401
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.001330s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.001642s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.002216s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_fe8e3421a39c' ) AND ( `openid` = 'oXgFDuJzC3pLA3lHrrUlTmeg-Cy0' ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000943s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.001652s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000633s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000254s ]
+NOTIC: [8] Undefined index: need_bind /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000685s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.001685s ]
+SQL: UPDATE `wp_config` SET `value`=-3532 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.001792s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 232 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000821s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283668,'2014-10-14 18:47:48','a:6:{s:10:\"ToUserName\";s:15:\"gh_fe8e3421a39c\";s:12:\"FromUserName\";s:28:\"oXgFDuJzC3pLA3lHrrUlTmeg-Cy0\";s:10:\"CreateTime\";s:10:\"1413283671\";s:7:\"MsgType\";s:4:\"text\";s:7:\"Content\";s:21:\"空腹不能吃什么\";s:5:\"MsgId\";s:19:\"6070007147116427642\";}','<xml><ToUserName><![CDATA[gh_fe8e3421a39c]]></ToUserName>\n<FromUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></FromUserName>\n<CreateTime>1413283671</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[空腹不能吃什么]]></Content>\n<MsgId>6070007147116427642</MsgId>\n</xml>') [ RunTime:0.008467s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000660s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000089s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000606s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000119s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_keyword` [ RunTime:0.000670s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '空腹不能吃什么' ) AND ( `keyword_type` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword_type` > 0 ) ORDER BY keyword_length desc, id desc  [ RunTime:0.000082s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 146 行.
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '*' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000079s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'YouaskService' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'Chat' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283680,'2014-10-14 18:48:00','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[空腹时不宜吃哪些东西“饥不择食”，是说人饿的时候食欲强烈，只要是能吃的东西都能拿来填饱肚子。殊不知有些食物是不宜空腹食用的，否则会给人体健康带来危害。 白薯（地瓜）,白薯中含有单宁酸和胶质。]]></Content><ToUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></ToUserName><FromUserName><![CDATA[gh_fe8e3421a39c]]></FromUserName><CreateTime>1413283668</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000309s ]
+
+[ 2014-10-14T18:48:00+08:00 ] 101.226.62.82 /findyourhoney/index.php?s=/home/weixin/index.html&signature=817b3ee48f6d57afaff4cd750cc6aa84d4a66730&timestamp=1413283671&nonce=1144253401
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000832s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000747s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_fe8e3421a39c' ) AND ( `openid` = 'oXgFDuJzC3pLA3lHrrUlTmeg-Cy0' ) LIMIT 1   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000711s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000604s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: need_bind /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000594s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: UPDATE `wp_config` SET `value`=-3533 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 232 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000483s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283673,'2014-10-14 18:47:53','a:6:{s:10:\"ToUserName\";s:15:\"gh_fe8e3421a39c\";s:12:\"FromUserName\";s:28:\"oXgFDuJzC3pLA3lHrrUlTmeg-Cy0\";s:10:\"CreateTime\";s:10:\"1413283671\";s:7:\"MsgType\";s:4:\"text\";s:7:\"Content\";s:21:\"空腹不能吃什么\";s:5:\"MsgId\";s:19:\"6070007147116427642\";}','<xml><ToUserName><![CDATA[gh_fe8e3421a39c]]></ToUserName>\n<FromUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></FromUserName>\n<CreateTime>1413283671</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[空腹不能吃什么]]></Content>\n<MsgId>6070007147116427642</MsgId>\n</xml>') [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000619s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000597s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000109s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_keyword` [ RunTime:0.000665s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '空腹不能吃什么' ) AND ( `keyword_type` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000085s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword_type` > 0 ) ORDER BY keyword_length desc, id desc  [ RunTime:0.000079s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 146 行.
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '*' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000080s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'YouaskService' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'Chat' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283680,'2014-10-14 18:48:00','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[空腹时不宜吃哪些东西“饥不择食”，是说人饿的时候食欲强烈，只要是能吃的东西都能拿来填饱肚子。殊不知有些食物是不宜空腹食用的，否则会给人体健康带来危害。 白薯（地瓜）,白薯中含有单宁酸和胶质。]]></Content><ToUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></ToUserName><FromUserName><![CDATA[gh_fe8e3421a39c]]></FromUserName><CreateTime>1413283673</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000240s ]
+
+[ 2014-10-14T18:48:01+08:00 ] 101.226.62.85 /findyourhoney/index.php?s=/home/weixin/index.html&signature=817b3ee48f6d57afaff4cd750cc6aa84d4a66730&timestamp=1413283671&nonce=1144253401
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000822s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000746s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_fe8e3421a39c' ) AND ( `openid` = 'oXgFDuJzC3pLA3lHrrUlTmeg-Cy0' ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000701s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000613s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: need_bind /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000615s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: UPDATE `wp_config` SET `value`=-3534 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 232 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000494s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283678,'2014-10-14 18:47:58','a:6:{s:10:\"ToUserName\";s:15:\"gh_fe8e3421a39c\";s:12:\"FromUserName\";s:28:\"oXgFDuJzC3pLA3lHrrUlTmeg-Cy0\";s:10:\"CreateTime\";s:10:\"1413283671\";s:7:\"MsgType\";s:4:\"text\";s:7:\"Content\";s:21:\"空腹不能吃什么\";s:5:\"MsgId\";s:19:\"6070007147116427642\";}','<xml><ToUserName><![CDATA[gh_fe8e3421a39c]]></ToUserName>\n<FromUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></FromUserName>\n<CreateTime>1413283671</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[空腹不能吃什么]]></Content>\n<MsgId>6070007147116427642</MsgId>\n</xml>') [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000712s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000149s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000622s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000103s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_keyword` [ RunTime:0.000705s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '空腹不能吃什么' ) AND ( `keyword_type` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000088s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword_type` > 0 ) ORDER BY keyword_length desc, id desc  [ RunTime:0.000080s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 146 行.
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '*' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'YouaskService' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000090s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'Chat' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000076s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283681,'2014-10-14 18:48:01','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[空腹时不宜吃哪些东西“饥不择食”，是说人饿的时候食欲强烈，只要是能吃的东西都能拿来填饱肚子。殊不知有些食物是不宜空腹食用的，否则会给人体健康带来危害。 白薯（地瓜）,白薯中含有单宁酸和胶质。]]></Content><ToUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></ToUserName><FromUserName><![CDATA[gh_fe8e3421a39c]]></FromUserName><CreateTime>1413283678</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000265s ]
+
+[ 2014-10-14T18:52:42+08:00 ] 101.226.62.82 /findyourhoney/index.php?s=/home/weixin/index.html&signature=f616ae93de950ec24552e66faec7437f9889b2ac&timestamp=1413283965&nonce=516140529
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000842s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000802s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_fe8e3421a39c' ) AND ( `openid` = 'oXgFDuJzC3pLA3lHrrUlTmeg-Cy0' ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000709s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000606s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: need_bind /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000599s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.015185s ]
+SQL: UPDATE `wp_config` SET `value`=-3535 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.000236s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 232 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000539s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283962,'2014-10-14 18:52:42','a:6:{s:10:\"ToUserName\";s:15:\"gh_fe8e3421a39c\";s:12:\"FromUserName\";s:28:\"oXgFDuJzC3pLA3lHrrUlTmeg-Cy0\";s:10:\"CreateTime\";s:10:\"1413283964\";s:7:\"MsgType\";s:4:\"text\";s:7:\"Content\";s:9:\"还有呢\";s:5:\"MsgId\";s:19:\"6070008405541845401\";}','<xml><ToUserName><![CDATA[gh_fe8e3421a39c]]></ToUserName>\n<FromUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></FromUserName>\n<CreateTime>1413283964</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[还有呢]]></Content>\n<MsgId>6070008405541845401</MsgId>\n</xml>') [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000648s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000089s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000630s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000099s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_keyword` [ RunTime:0.000705s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '还有呢' ) AND ( `keyword_type` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword_type` > 0 ) ORDER BY keyword_length desc, id desc  [ RunTime:0.000080s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 146 行.
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '*' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000079s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'YouaskService' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'Chat' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283962,'2014-10-14 18:52:42','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[你再重复一下好吗？]]></Content><ToUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></ToUserName><FromUserName><![CDATA[gh_fe8e3421a39c]]></FromUserName><CreateTime>1413283962</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000316s ]
+
+[ 2014-10-14T18:53:06+08:00 ] 101.226.62.86 /findyourhoney/index.php?s=/home/weixin/index.html&signature=8ef8382c3e3765b620f98531ae8bc947cd7c1c57&timestamp=1413283986&nonce=189582726
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000861s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000761s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_fe8e3421a39c' ) AND ( `openid` = 'oXgFDuJzC3pLA3lHrrUlTmeg-Cy0' ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000680s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000584s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: need_bind /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000605s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: UPDATE `wp_config` SET `value`=-3536 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 232 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000486s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283983,'2014-10-14 18:53:03','a:6:{s:10:\"ToUserName\";s:15:\"gh_fe8e3421a39c\";s:12:\"FromUserName\";s:28:\"oXgFDuJzC3pLA3lHrrUlTmeg-Cy0\";s:10:\"CreateTime\";s:10:\"1413283986\";s:7:\"MsgType\";s:4:\"text\";s:7:\"Content\";s:27:\"哪些东西不能空腹吃\";s:5:\"MsgId\";s:19:\"6070008500031125919\";}','<xml><ToUserName><![CDATA[gh_fe8e3421a39c]]></ToUserName>\n<FromUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></FromUserName>\n<CreateTime>1413283986</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[哪些东西不能空腹吃]]></Content>\n<MsgId>6070008500031125919</MsgId>\n</xml>') [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000609s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000599s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000106s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_keyword` [ RunTime:0.000724s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '哪些东西不能空腹吃' ) AND ( `keyword_type` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword_type` > 0 ) ORDER BY keyword_length desc, id desc  [ RunTime:0.000081s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 146 行.
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '*' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000080s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'YouaskService' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'Chat' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413283986,'2014-10-14 18:53:06','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[据我所知，烈酒不宜空腹喝，辣椒不宜空腹吃，柿子也不能空腹吃。还有一些对胃肠刺激性较大的药物都不宜空腹吃。]]></Content><ToUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></ToUserName><FromUserName><![CDATA[gh_fe8e3421a39c]]></FromUserName><CreateTime>1413283983</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000296s ]
+
+[ 2014-10-14T19:05:10+08:00 ] 101.226.62.82 /findyourhoney/index.php?s=/home/weixin/index.html&signature=5e6d9d27cc93d1fbaa9ce163b7325bd1f49d82bd&timestamp=1413284711&nonce=836670672
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000815s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000706s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_fe8e3421a39c' ) AND ( `openid` = 'oXgFDuJzC3pLA3lHrrUlTmeg-Cy0' ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000665s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000572s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: need_bind /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000578s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: UPDATE `wp_config` SET `value`=-3537 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 232 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000469s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413284707,'2014-10-14 19:05:07','a:6:{s:10:\"ToUserName\";s:15:\"gh_fe8e3421a39c\";s:12:\"FromUserName\";s:28:\"oXgFDuJzC3pLA3lHrrUlTmeg-Cy0\";s:10:\"CreateTime\";s:10:\"1413284710\";s:7:\"MsgType\";s:4:\"text\";s:7:\"Content\";s:24:\"空腹可以吃米饭吗\";s:5:\"MsgId\";s:19:\"6070011609587448317\";}','<xml><ToUserName><![CDATA[gh_fe8e3421a39c]]></ToUserName>\n<FromUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></FromUserName>\n<CreateTime>1413284710</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[空腹可以吃米饭吗]]></Content>\n<MsgId>6070011609587448317</MsgId>\n</xml>') [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000587s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000086s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000578s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000277s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_keyword` [ RunTime:0.000706s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '空腹可以吃米饭吗' ) AND ( `keyword_type` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000303s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword_type` > 0 ) ORDER BY keyword_length desc, id desc  [ RunTime:0.000079s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 146 行.
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '*' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000077s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000072s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'YouaskService' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000077s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'Chat' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413284710,'2014-10-14 19:05:10','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[大米饭是“国食”，就是拿来填肚子的，当然可以空腹吃了。]]></Content><ToUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></ToUserName><FromUserName><![CDATA[gh_fe8e3421a39c]]></FromUserName><CreateTime>1413284707</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000226s ]
+
+[ 2014-10-14T19:05:40+08:00 ] 101.226.62.82 /findyourhoney/index.php?s=/home/weixin/index.html&signature=6c99f325c08305806e11f72648591e74a4d1a860&timestamp=1413284740&nonce=364867374
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000930s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000721s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_fe8e3421a39c' ) AND ( `openid` = 'oXgFDuJzC3pLA3lHrrUlTmeg-Cy0' ) LIMIT 1   [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000660s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000576s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: need_bind /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000580s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: UPDATE `wp_config` SET `value`=-3538 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 232 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000466s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413284736,'2014-10-14 19:05:36','a:6:{s:10:\"ToUserName\";s:15:\"gh_fe8e3421a39c\";s:12:\"FromUserName\";s:28:\"oXgFDuJzC3pLA3lHrrUlTmeg-Cy0\";s:10:\"CreateTime\";s:10:\"1413284739\";s:7:\"MsgType\";s:4:\"text\";s:7:\"Content\";s:21:\"哈哈，没上当啊\";s:5:\"MsgId\";s:19:\"6070011734141499904\";}','<xml><ToUserName><![CDATA[gh_fe8e3421a39c]]></ToUserName>\n<FromUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></FromUserName>\n<CreateTime>1413284739</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[哈哈，没上当啊]]></Content>\n<MsgId>6070011734141499904</MsgId>\n</xml>') [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000661s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000580s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000097s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_keyword` [ RunTime:0.000621s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '哈哈，没上当啊' ) AND ( `keyword_type` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword_type` > 0 ) ORDER BY keyword_length desc, id desc  [ RunTime:0.000080s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 146 行.
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '*' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000079s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'YouaskService' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000091s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'Chat' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413284740,'2014-10-14 19:05:40','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[可能上当了。]]></Content><ToUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></ToUserName><FromUserName><![CDATA[gh_fe8e3421a39c]]></FromUserName><CreateTime>1413284736</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000291s ]
+
+[ 2014-10-14T19:06:03+08:00 ] 101.226.62.82 /findyourhoney/index.php?s=/home/weixin/index.html&signature=d0ac488a17490690dce90465b7d83ac1a731cf6a&timestamp=1413284766&nonce=1048080004
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000845s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000755s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_fe8e3421a39c' ) AND ( `openid` = 'oXgFDuJzC3pLA3lHrrUlTmeg-Cy0' ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000699s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000604s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: need_bind /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000609s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: UPDATE `wp_config` SET `value`=-3539 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.000189s ]
+NOTIC: [8] Undefined index: uid /var/www/findyourhoney/ThinkPHP/Library/Think/Controller.class.php 第 232 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000498s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413284762,'2014-10-14 19:06:02','a:6:{s:10:\"ToUserName\";s:15:\"gh_fe8e3421a39c\";s:12:\"FromUserName\";s:28:\"oXgFDuJzC3pLA3lHrrUlTmeg-Cy0\";s:10:\"CreateTime\";s:10:\"1413284765\";s:7:\"MsgType\";s:4:\"text\";s:7:\"Content\";s:15:\"哈哈哈哈哈\";s:5:\"MsgId\";s:19:\"6070011845810649605\";}','<xml><ToUserName><![CDATA[gh_fe8e3421a39c]]></ToUserName>\n<FromUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></FromUserName>\n<CreateTime>1413284765</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[哈哈哈哈哈]]></Content>\n<MsgId>6070011845810649605</MsgId>\n</xml>') [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000606s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000089s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000596s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000100s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /var/www/findyourhoney/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_keyword` [ RunTime:0.000674s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '哈哈哈哈哈' ) AND ( `keyword_type` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword_type` > 0 ) ORDER BY keyword_length desc, id desc  [ RunTime:0.000082s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/findyourhoney/Application/Home/Controller/WeixinController.class.php 第 146 行.
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_fe8e3421a39c')  ) AND ( `keyword` = '*' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000080s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'YouaskService' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: doNotInit /var/www/findyourhoney/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_fe8e3421a39c' ) LIMIT 1   [ RunTime:0.000079s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'Chat' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1413284763,'2014-10-14 19:06:03','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[哈哈哈哈哈哈]]></Content><ToUserName><![CDATA[oXgFDuJzC3pLA3lHrrUlTmeg-Cy0]]></ToUserName><FromUserName><![CDATA[gh_fe8e3421a39c]]></FromUserName><CreateTime>1413284762</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000322s ]
+
